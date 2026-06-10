@@ -1,0 +1,895 @@
+Portfólio
+
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="utf-8" />
+    <title>Portfólio</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- Fontes -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="favicon.ico" />
+
+    <!-- Estilos -->
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <div class="layout">
+      <button
+        class="menu-toggle"
+        aria-label="Abrir/fechar menu"
+        id="btnToggleMenu"
+        aria-expanded="false"
+      >
+        <span class="hamburger" aria-hidden="true"></span>
+      </button>
+
+      <!-- Sidenav -->
+      <nav class="sidenav" id="sidenav">
+        <div class="perfil">
+          <h2>Felipe Souza Moreira</h2>
+          <p>Dev Fullstack</p>
+        </div>
+
+        <a href="#inicio" class="nav-link" data-section="inicio">Início</a>
+        <a href="#skills" class="nav-link" data-section="skills">Skills</a>
+        <a href="#certificacoes" class="nav-link" data-section="certificacoes"
+          >Certificações</a
+        >
+        <a href="#projetos" class="nav-link" data-section="projetos"
+          >Projetos</a
+        >
+        <a href="#experiencias" class="nav-link" data-section="experiencias"
+          >Experiências</a
+        >
+      </nav>
+
+      <!-- Conteúdo -->
+      <main class="conteudo">
+        <!-- Início -->
+        <section class="inicio" id="inicio">
+          <div class="container">
+            <div class="foto">
+              <img
+                src="assets/felipe.jpeg"
+                alt="Foto de Felipe"
+                loading="lazy"
+              />
+            </div>
+
+            <div class="info">
+              <h1>Olá! 👋 Eu sou <strong>Felipe Souza Moreira</strong></h1>
+              <p class="sobre-resumo">
+                Desenvolvedor backend com experiência na construção de sistemas
+                escaláveis, integrações com APIs externas, ERPs e marketplaces.
+                Atuo com Java, Spring Boot, Angular, bancos relacionais e NoSQL,
+                aplicando boas práticas de engenharia, arquitetura hexagonal,
+                microservices e processamento assíncrono com mensageria. Também
+                tenho vivência em QA e automação de testes com Cypress, sempre
+                buscando entregar soluções confiáveis, performáticas e alinhadas
+                às necessidades do negócio.
+              </p>
+
+              <p class="contato-chamada">Entre em contato comigo</p>
+              <div class="botoes">
+                <a
+                  href="https://github.com/Felpes513"
+                  target="_blank"
+                  rel="noopener"
+                  class="github"
+                  aria-label="GitHub"
+                >
+                  <img
+                    src="assets/icons/github.jpeg"
+                    alt="GitHub"
+                    class="icon-inline"
+                  />
+                </a>
+                <a
+                  href="https://www.linkedin.com/in/felipe-souza-moreira-45292220b/"
+                  target="_blank"
+                  rel="noopener"
+                  class="linkedin"
+                  aria-label="LinkedIn"
+                >
+                  <img
+                    src="assets/icons/linkedin.png"
+                    alt="LinkedIn"
+                    class="icon-inline"
+                  />
+                </a>
+                <a
+                  href="mailto:felipe.seuemail@exemplo.com"
+                  class="email"
+                  aria-label="Enviar email"
+                >
+                  <img
+                    src="assets/icons/gmail.jpeg"
+                    alt="Email"
+                    class="icon-inline"
+                  />
+                </a>
+                <a
+                  href="https://wa.me/5511934409921"
+                  target="_blank"
+                  rel="noopener"
+                  class="whatsapp"
+                  aria-label="Enviar mensagem no WhatsApp"
+                >
+                  <img
+                    src="assets/icons/whatsapp.svg"
+                    alt="WhatsApp"
+                    class="icon-inline"
+                  />
+                </a>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <!-- Skills -->
+        <section class="skills" id="skills">
+          <h2>Minhas Skills</h2>
+
+          <div class="categorias">
+            <div class="categoria">
+              <h3>Backend</h3>
+              <ul>
+                <li>
+                  <img src="assets/icons/java.png" class="icon-li" alt="Java" />
+                  Java
+                </li>
+                <li>
+                  <img
+                    src="assets/icons/icons8-logotipo-da-primavera-48.png"
+                    class="icon-li"
+                    alt="Spring Boot"
+                  />
+                  Spring Boot
+                </li>
+                <li>
+                  <img
+                    src="assets/icons/golang.png"
+                    class="icon-li"
+                    alt="GoLang"
+                  />
+                  GoLang
+                </li>
+              </ul>
+            </div>
+
+            <div class="categoria">
+              <h3>Frontend</h3>
+              <ul>
+                <li>
+                  <img
+                    src="assets/icons/angular.png"
+                    class="icon-li"
+                    alt="Angular"
+                  />
+                  Angular
+                </li>
+                <li>
+                  <img
+                    src="assets/icons/html.png"
+                    class="icon-li"
+                    alt="HTML5"
+                  />
+                  HTML
+                </li>
+                <li>
+                  <img
+                    src="assets/icons/css-3.png"
+                    class="icon-li"
+                    alt="CSS3"
+                  />
+                  CSS / SCSS
+                </li>
+                <li>
+                  <img
+                    src="assets/icons/js.png"
+                    class="icon-li"
+                    alt="JavaScript"
+                  />
+                  JavaScript / TypeScript
+                </li>
+              </ul>
+            </div>
+
+            <div class="categoria">
+              <h3>DevOps / Cloud</h3>
+              <ul>
+                <li>
+                  <img
+                    src="assets/icons/docker.jpeg"
+                    class="icon-li"
+                    alt="Docker"
+                  />
+                  Docker
+                </li>
+                <li>
+                  <img
+                    src="assets/icons/amazon-web-services.jpeg"
+                    class="icon-li"
+                    alt="Amazon Web Services"
+                  />
+                  Amazon Web Services
+                </li>
+                <li>
+                  <img
+                    src="assets/icons/github.jpeg"
+                    class="icon-li"
+                    alt="GitHub Actions"
+                  />
+                  GitHub Actions
+                </li>
+              </ul>
+            </div>
+
+            <div class="categoria">
+              <h3>Banco de Dados</h3>
+              <ul>
+                <li>
+                  <img
+                    src="assets/icons/mysql.png"
+                    class="icon-li"
+                    alt="MySQL"
+                  />
+                  MySQL
+                </li>
+                                <li>
+                  <img
+                    src="assets/icons/postgresql.png"
+                    class="icon-li"
+                    alt="PostgreSQL"
+                  />
+                  PostgreSQL
+                </li>
+                <li>
+                  <img src="assets/icons/MongoDB.png" 
+                  class="icon-li" 
+                  alt="MongoDB" />MongoDB
+                </li>
+              </ul>
+            </div>
+
+            <div class="categoria">
+              <h3>Ferramentas / QA</h3>
+              <ul>
+                <li>
+                  <img
+                    src="assets/icons/insomnia.jpeg"
+                    class="icon-li"
+                    alt="Insomnia"
+                  />
+                  Insomnia
+                </li>
+                <li>
+                  <img
+                    src="assets/icons/postman.png"
+                    class="icon-li"
+                    alt="Postman"
+                  />
+                  Postman
+                </li>
+                <li>
+                  <img
+                    src="assets/icons/cypress.jpeg"
+                    class="icon-li"
+                    alt="Cypress"
+                  />
+                  Testes Automatizados
+                </li>
+              </ul>
+            </div>
+          </div>
+        </section>
+
+        <!-- Certificações -->
+        <section class="certificacoes" id="certificacoes">
+          <h2>Minhas Certificações</h2>
+
+          <div class="grid">
+            <details class="certificado">
+              <summary>
+                <img
+                  src="assets/certifications/aws-academy-graduate-cloud-foundations-training-bad.png"
+                  alt="AWS Cloud Foundations"
+                  loading="lazy"
+                />
+                <h3>AWS Cloud Foundations</h3>
+              </summary>
+              <div class="certificado-detalhes">
+                <p>
+                  Curso introdutório com compreensão geral sobre conceitos de
+                  computação em nuvem, produtos essenciais da AWS, segurança,
+                  arquitetura, preço e suporte.
+                </p>
+                <a
+                  href="https://www.credly.com/badges/b4c5ead2-3f86-4a0c-8d15-792a10f5aa44/public_url"
+                  target="_blank"
+                  rel="noopener"
+                  >Ver Certificado</a
+                >
+              </div>
+            </details>
+
+            <details class="certificado">
+              <summary>
+                <img
+                  src="assets/certifications/ccna-introduction-to-networks.png"
+                  alt="CCNA: Introduction to Networks"
+                  loading="lazy"
+                />
+                <h3>CCNA: Introduction to Networks</h3>
+              </summary>
+              <div class="certificado-detalhes">
+                <p>
+                  Certificação de nível estudante com conhecimentos em redes,
+                  incluindo endereçamento IP, protocolos físicos e de enlace,
+                  Ethernet e configuração de conectividade entre switches,
+                  roteadores e dispositivos finais para acesso a recursos locais
+                  e remotos. Inclui participação em laboratórios práticos com
+                  Cisco hardware ou Packet Tracer.
+                </p>
+                <a
+                  href="https://www.credly.com/badges/b0e800e6-cbc7-47e2-8fa8-ccbf824cd3e1/public_url"
+                  target="_blank"
+                  rel="noopener"
+                  >Ver Certificado</a
+                >
+              </div>
+            </details>
+
+            <details class="certificado">
+              <summary>
+                <img
+                  src="assets/certifications/enterprise-design-thinking-practitioner.png"
+                  alt="Enterprise Design Thinking Practitioner"
+                  loading="lazy"
+                />
+                <h3>Enterprise Design Thinking Practitioner</h3>
+              </summary>
+              <div class="certificado-detalhes">
+                <p>
+                  Conhecimento na aplicação do Enterprise Design Thinking e seu
+                  valor, identificando oportunidades para utilizá-lo no trabalho
+                  do dia a dia.
+                </p>
+                <a
+                  href="https://www.credly.com/badges/f4b34c38-0d62-489c-9174-60115e59b692/public_url"
+                  target="_blank"
+                  rel="noopener"
+                  >Ver Certificado</a
+                >
+              </div>
+            </details>
+
+            <details class="certificado">
+              <summary>
+                <img
+                  src="assets/certifications/well-architected-proficient.png"
+                  alt="AWS Well-Architected Proficient"
+                  loading="lazy"
+                />
+                <h3>AWS Well-Architected Proficient</h3>
+              </summary>
+              <div class="certificado-detalhes">
+                <p>
+                  Conhecimento em estratégias e boas práticas para arquitetar na
+                  nuvem usando o AWS Well-Architected Framework, incluindo
+                  reviews com o AWS Well-Architected Tool.
+                </p>
+                <a
+                  href="https://www.credly.com/badges/39469420-b13f-4f08-9897-8789f3ba1a51/public_url"
+                  target="_blank"
+                  rel="noopener"
+                  >Ver Certificado</a
+                >
+              </div>
+            </details>
+          </div>
+        </section>
+
+        <!-- Projetos -->
+        <section class="projetos" id="projetos">
+          <h2>Projetos Desenvolvidos</h2>
+
+          <div class="cards">
+            <article class="card projeto-card">
+              <button
+                type="button"
+                class="projeto-preview"
+                data-modal-target="modal-corpo-esporte"
+              >
+                <div class="projeto-imagem projeto-logo projeto-logo-corpo-esporte">
+                  <img
+                    src="assets/projects/corpo-esporte/logo.png"
+                    alt="Logo da Academia Corpo Esporte"
+                    loading="lazy"
+                  />
+                </div>
+                <h3>Academia Corpo Esporte - Landing Page</h3>
+                <p>
+                  Landing page responsiva para apresentar a academia, reforçar a
+                  identidade visual e direcionar visitantes para contato.
+                </p>
+                <span class="projeto-acao">Clique para ver detalhes</span>
+              </button>
+
+              <template id="modal-corpo-esporte">
+                <div class="projeto-detalhes">
+                  <div class="projeto-modal-header">
+                    <div class="projeto-imagem projeto-logo projeto-logo-corpo-esporte">
+                      <img
+                        src="assets/projects/corpo-esporte/logo.png"
+                        alt="Logo da Academia Corpo Esporte"
+                        loading="lazy"
+                      />
+                    </div>
+                    <div>
+                      <h3>Academia Corpo Esporte - Landing Page</h3>
+                      <p>
+                        Landing page responsiva criada para destacar a marca,
+                        apresentar a proposta da academia e facilitar o contato
+                        com novos alunos.
+                      </p>
+                    </div>
+                  </div>
+
+                  <p>
+                    A página foi desenvolvida com foco em uma experiência direta
+                    e moderna, valorizando a identidade visual da Academia Corpo
+                    Esporte e organizando as informações principais para
+                    conversão. A estrutura já está preparada para receber um
+                    carrossel com fotos reais da academia, permitindo mostrar
+                    ambientes, treinos e diferenciais do espaço.
+                  </p>
+
+                  <div class="projeto-carousel" data-carousel>
+                    <div class="carousel-header">
+                      <h4>Imagens do projeto</h4>
+                      <span data-carousel-counter>1 / 6</span>
+                    </div>
+                    <div class="carousel-viewport">
+                      <figure class="carousel-slide active">
+                        <img
+                          src="assets/projects/corpo-esporte/hero.jpeg"
+                          alt="Hero da landing page da Academia Corpo Esporte"
+                          class="carousel-img-dark"
+                          loading="lazy"
+                        />
+                        <figcaption>Hero</figcaption>
+                      </figure>
+                      <figure class="carousel-slide">
+                        <img
+                          src="assets/projects/corpo-esporte/avaliacoes.jpeg"
+                          alt="Seção de avaliações da Academia Corpo Esporte"
+                          class="carousel-img-dark"
+                          loading="lazy"
+                        />
+                        <figcaption>Avaliações</figcaption>
+                      </figure>
+                      <figure class="carousel-slide">
+                        <img
+                          src="assets/projects/corpo-esporte/atividades.jpeg"
+                          alt="Seção de atividades da Academia Corpo Esporte"
+                          loading="lazy"
+                        />
+                        <figcaption>Atividades</figcaption>
+                      </figure>
+                      <figure class="carousel-slide">
+                        <img
+                          src="assets/projects/corpo-esporte/planos.jpeg"
+                          alt="Seção de planos da Academia Corpo Esporte"
+                          loading="lazy"
+                        />
+                        <figcaption>Planos</figcaption>
+                      </figure>
+                      <figure class="carousel-slide">
+                        <img
+                          src="assets/projects/corpo-esporte/localizacao.jpeg"
+                          alt="Seção de horários e localização da Academia Corpo Esporte"
+                          class="carousel-img-dark"
+                          loading="lazy"
+                        />
+                        <figcaption>Horários e localização</figcaption>
+                      </figure>
+                      <figure class="carousel-slide">
+                        <img
+                          src="assets/projects/corpo-esporte/footer.jpeg"
+                          alt="Rodapé da landing page da Academia Corpo Esporte"
+                          class="carousel-img-dark"
+                          loading="lazy"
+                        />
+                        <figcaption>Contato</figcaption>
+                      </figure>
+                    </div>
+                    <div class="carousel-controls">
+                      <button type="button" data-carousel-prev aria-label="Imagem anterior">
+                        <span class="material-icons" aria-hidden="true">chevron_left</span>
+                      </button>
+                      <button type="button" data-carousel-next aria-label="Próxima imagem">
+                        <span class="material-icons" aria-hidden="true">chevron_right</span>
+                      </button>
+                    </div>
+                  </div>
+
+                  <div class="links">
+                    <a
+                      href="https://landing-page-corpo-esporte.vercel.app"
+                      target="_blank"
+                      rel="noopener"
+                      class="link-site"
+                      >
+                      <span>Acesso ao site</span>
+                      <img
+                        src="assets/icons/internet.png"
+                        alt="Landing page da Academia Corpo Esporte"
+                        class="icon-inline"
+                      />
+                    </a>
+                  </div>
+                </div>
+              </template>
+            </article>
+
+            <article class="card projeto-card">
+              <button
+                type="button"
+                class="projeto-preview"
+                data-modal-target="modal-sgpic"
+              >
+                <div class="projeto-imagem projeto-logo">
+                  <img
+                    src="assets/projects/sgpic/uscs.png"
+                    alt="Logo da USCS"
+                    loading="lazy"
+                  />
+                </div>
+                <h3>SGPIC - Scientific Initiation Project Management System</h3>
+                <p>
+                  Plataforma acadêmica fullstack para gerenciar e automatizar o
+                  ciclo completo de projetos de iniciação científica.
+                </p>
+                <span class="projeto-acao">Clique para ver detalhes</span>
+              </button>
+
+              <template id="modal-sgpic">
+                <div class="projeto-detalhes">
+                  <div class="projeto-modal-header">
+                    <div class="projeto-imagem projeto-logo">
+                      <img
+                        src="assets/projects/sgpic/uscs.png"
+                        alt="Logo da USCS"
+                        loading="lazy"
+                      />
+                    </div>
+                    <div>
+                      <h3>SGPIC - Scientific Initiation Project Management System</h3>
+                      <p>
+                        Plataforma acadêmica fullstack para gerenciar e
+                        automatizar o ciclo completo de projetos de iniciação
+                        científica.
+                      </p>
+                    </div>
+                  </div>
+
+                  <p>
+                    SGPIC (Sistema de Gerenciamento de Projetos de Iniciação Científica) é uma plataforma acadêmica full-stack desenvolvida para gerenciar e automatizar todo o ciclo de vida de projetos de iniciação científica. Ela oferece suporte a diferentes perfis de usuários (estudantes, orientadores e secretários), permitindo submissão de projetos, avaliações, relatórios, notificações e geração automatizada de documentos. O sistema integra Angular, FastAPI (Python) e MySQL, seguindo princípios de arquitetura limpa e boas práticas de implantação em nuvem.
+                  </p>
+                <div class="links">
+                  <a
+                    href="https://github.com/Felpes513/curso-organo"
+                    target="_blank"
+                    rel="noopener"
+                    class="link-site"
+                  >
+                    <span>Acesso ao repositório</span>
+                    <img
+                      src="assets/icons/github.png"
+                      alt="GitHub"
+                      class="icon-inline"
+                    />
+                  </a>
+                  <a
+                    href="https://ic.inovauscs.tech"
+                    target="_blank"
+                    rel="noopener"
+                    class="link-site"
+                    >
+                    <span>Acesso ao site</span>
+                    <img
+                      src="assets/icons/internet.png"
+                      alt="Sistema SGPIC"
+                      class="icon-inline"
+                    />
+                  </a>
+                </div>
+                </div>
+              </template>
+            </article>
+
+            <article class="card projeto-card">
+              <button
+                type="button"
+                class="projeto-preview"
+                data-modal-target="modal-kepchat"
+              >
+                <div class="projeto-imagem projeto-logo">
+                  <img
+                    src="assets/projects/kepchat/kepel.png"
+                    alt="Logo da Kepel"
+                    loading="lazy"
+                  />
+                </div>
+                <h3>KepChat - Sistema de mensagens instantânea para marketplaces</h3>
+                <p>
+                  Plataforma para centralizar comunicação, operações internas e
+                  integrações com marketplaces, ERP e sistemas corporativos.
+                </p>
+                <span class="projeto-acao">Clique para ver detalhes</span>
+              </button>
+
+              <template id="modal-kepchat">
+                <div class="projeto-detalhes">
+                  <div class="projeto-modal-header">
+                    <div class="projeto-imagem projeto-logo">
+                      <img
+                        src="assets/projects/kepchat/kepel.png"
+                        alt="Logo da Kepel"
+                        loading="lazy"
+                      />
+                    </div>
+                    <div>
+                      <h3>KepChat - Sistema de mensagens instantânea para marketplaces</h3>
+                      <p>
+                        Plataforma para centralizar comunicação, operações
+                        internas e integrações com marketplaces, ERP e sistemas
+                        corporativos.
+                      </p>
+                    </div>
+                  </div>
+
+                <p>
+                  O KepChat unifica mensagens de marketplaces como Mercado
+                  Livre, Shopee e TikTok Shop, oferecendo uma visão consolidada
+                  do atendimento ao cliente e dos fluxos operacionais. Também
+                  conta com integração com ERP Bling, sincronização de pedidos,
+                  estoque e notas fiscais, automações configuráveis, dashboards
+                  operacionais, gestão de compras, módulo de precificação,
+                  notificações, controle de usuários, permissões e configurações
+                  administrativas.
+                </p>
+                <p>
+                  A arquitetura foi projetada com foco em escalabilidade e
+                  desacoplamento, utilizando princípios de microservices,
+                  mensageria assíncrona e integração via APIs REST.
+                </p>
+
+                <div class="projeto-carousel" data-carousel>
+                  <div class="carousel-header">
+                    <h4>Telas do sistema</h4>
+                    <span data-carousel-counter>1 / 12</span>
+                  </div>
+                  <div class="carousel-viewport">
+                    <figure class="carousel-slide active">
+                      <img
+                        src="assets/projects/kepchat/login.jpeg"
+                        alt="Login do KepChat"
+                        loading="lazy"
+                      />
+                      <figcaption>Login</figcaption>
+                    </figure>
+                    <figure class="carousel-slide">
+                      <img
+                        src="assets/projects/kepchat/chat.jpeg"
+                        alt="Chat do KepChat"
+                        loading="lazy"
+                      />
+                      <figcaption>Chat</figcaption>
+                    </figure>
+                    <figure class="carousel-slide">
+                      <img
+                        src="assets/projects/kepchat/lucro-real.jpeg"
+                        alt="Tela de Lucro Real do KepChat"
+                        loading="lazy"
+                      />
+                      <figcaption>Lucro Real</figcaption>
+                    </figure>
+                    <figure class="carousel-slide">
+                      <img
+                        src="assets/projects/kepchat/simples-nacional.jpeg"
+                        alt="Tela de Simples Nacional do KepChat"
+                        loading="lazy"
+                      />
+                      <figcaption>Simples Nacional</figcaption>
+                    </figure>
+                    <figure class="carousel-slide">
+                      <img
+                        src="assets/projects/kepchat/parametros.jpeg"
+                        alt="Tela de Parâmetros do KepChat"
+                        loading="lazy"
+                      />
+                      <figcaption>Parâmetros</figcaption>
+                    </figure>
+                    <figure class="carousel-slide">
+                      <img
+                        src="assets/projects/kepchat/espelho.jpeg"
+                        alt="Tela de Espelho de ponto do KepChat"
+                        loading="lazy"
+                      />
+                      <figcaption>Espelho de ponto</figcaption>
+                    </figure>
+                    <figure class="carousel-slide">
+                      <img
+                        src="assets/projects/kepchat/compras.jpeg"
+                        alt="Tela de Compras do KepChat"
+                        loading="lazy"
+                      />
+                      <figcaption>Compras</figcaption>
+                    </figure>
+                    <figure class="carousel-slide">
+                      <img
+                        src="assets/projects/kepchat/treinamentos.jpeg"
+                        alt="Tela de Treinamentos do KepChat"
+                        loading="lazy"
+                      />
+                      <figcaption>Treinamentos</figcaption>
+                    </figure>
+                    <figure class="carousel-slide">
+                      <img
+                        src="assets/projects/kepchat/notificacoes.jpeg"
+                        alt="Tela de Notificações do KepChat"
+                        loading="lazy"
+                      />
+                      <figcaption>Notificações</figcaption>
+                    </figure>
+                    <figure class="carousel-slide">
+                      <img
+                        src="assets/projects/kepchat/automacoes.jpeg"
+                        alt="Tela de Automações do KepChat"
+                        loading="lazy"
+                      />
+                      <figcaption>Automações</figcaption>
+                    </figure>
+                    <figure class="carousel-slide">
+                      <img
+                        src="assets/projects/kepchat/integracoes.jpeg"
+                        alt="Tela de Integrações do KepChat"
+                        loading="lazy"
+                      />
+                      <figcaption>Integrações</figcaption>
+                    </figure>
+                    <figure class="carousel-slide">
+                      <img
+                        src="assets/projects/kepchat/configuracoes.jpeg"
+                        alt="Tela de Configurações do KepChat"
+                        loading="lazy"
+                      />
+                      <figcaption>Configurações</figcaption>
+                    </figure>
+                  </div>
+                  <div class="carousel-controls">
+                    <button type="button" data-carousel-prev aria-label="Imagem anterior">
+                      <span class="material-icons" aria-hidden="true">chevron_left</span>
+                    </button>
+                    <button type="button" data-carousel-next aria-label="Próxima imagem">
+                      <span class="material-icons" aria-hidden="true">chevron_right</span>
+                    </button>
+                  </div>
+                </div>
+
+                <div class="links">
+                  <a
+                    href="https://kepchat.kepel.com.br"
+                    target="_blank"
+                    rel="noopener"
+                    class="link-site"
+                    >
+                    <span>Acesso ao site</span>
+                    <img
+                      src="assets/icons/internet.png"
+                      alt="Site do KepChat"
+                      class="icon-inline"
+                    />
+                  </a>
+                </div>
+                </div>
+              </template>
+            </article>
+          </div>
+        </section>
+
+        <dialog class="projeto-modal" id="projetoModal">
+          <div class="projeto-modal-conteudo">
+            <button
+              type="button"
+              class="projeto-modal-fechar"
+              data-modal-close
+              aria-label="Fechar detalhes do projeto"
+            >
+              <span class="material-icons" aria-hidden="true">close</span>
+            </button>
+            <div data-modal-content></div>
+          </div>
+        </dialog>
+
+        <!-- Experiências -->
+        <section class="experiencias" id="experiencias">
+          <h2>Minhas Experiências</h2>
+
+          <div class="timeline">
+            <div class="item">
+              <h3>Analista de Sistemas - Kepel Suprimentos</h3>
+              <span>Abr 2026 - Até o momento</span>
+              <p>
+                Responsável pelo desenvolvimento de soluções internas para
+                automação de processos e integração de sistemas. Atuo no
+                desenvolvimento de integrações com ERP Bling e marketplaces como
+                Mercado Livre, Shopee e TikTok Shop, garantindo sincronização de
+                pedidos, estoque e operações. Também desenvolvo dashboards para
+                acompanhamento de pedidos, status logísticos e performance
+                operacional, além de APIs e automações voltadas à otimização de
+                processos internos e redução de tarefas manuais. Apoio ainda na
+                elaboração de documentações técnicas e na estruturação de
+                sistemas internos.
+              </p>
+            </div>
+
+            <div class="item">
+              <h3>
+                Assistente de Desenvolvimento - MobileMed Soluções em
+                Tecnologia para Medicina
+              </h3>
+              <span>Fev 2025 - Fev 2026</span>
+              <p>
+                Atuei na garantia de qualidade de software realizando análise
+                técnica de tarefas, validação de requisitos e execução de testes
+                funcionais, de integração e regressão. Desenvolvo e mantenho
+                testes automatizados utilizando frameworks como Cypress, além de
+                executar testes em APIs com Postman e validações de dados com
+                MySQL. Trabalhei em colaboração direta com equipes de
+                desenvolvimento, produto e suporte, identificando falhas,
+                propondo melhorias e garantindo alinhamento entre necessidades do
+                negócio e a solução entregue. Produzi documentações técnicas
+                completas, incluindo casos de teste, evidências, relatórios,
+                fluxos de processo e diagramas. Contribuo também para a melhoria
+                contínua dos processos de QA e para o aumento da confiabilidade
+                das entregas.
+              </p>
+            </div>
+
+            <div class="item">
+              <h3>Office-boy - ICR Escritório Contábil e Fiscal LTDA</h3>
+              <span>Jan 2021 - Jan 2025</span>
+              <p>
+                Responsável por dar suporte às atividades administrativas e
+                operacionais da empresa, realizando tarefas externas e internas,
+                como entrega e coleta de documentos, pagamentos bancários,
+                distribuição de correspondências, organização de materiais e
+                suporte logístico para diversos departamentos. Focado em
+                garantir eficiência e pontualidade nas operações de suporte,
+                além de contribuir para a organização e o bom andamento dos
+                processos diários.
+              </p>
+            </div>
+          </div>
+        </section>
+      </main>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
